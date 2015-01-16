@@ -3,22 +3,32 @@
     <head>
       <title>To do app</title>
       <link href="app.css" rel="stylesheet"/>
+      <link href="bootstrap.css" rel="stylesheet"/>
     </head>
-    <body ng-app="todoApp" ng-controller="todoAppController">
-      <h2>Do what you want to do</h2>
-      <form ng-submit="addNewTask()">
-        <input type="text" ng-model="newTask" />
-        <input type="submit" value="Add" />
-      </form>
-      <div id="todoList">
-        <div ng-repeat="task in newTaskList">
-          <label>
-              <input type="checkbox" ng-model="task.done"/>
-              <span ng-bind="task.description" ng-class="{strike : task.done}"></span>
-          </label>
-          <input type="button" ng-click="removeTask($index)" value="delete"/>
+    <body ng-app="todoApp" ng-controller="todoAppController" class="container-fluid">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="jumbotron">
+              <h1>Do what you want to do</h1>
+              <form ng-submit="addNewTask()">
+                <div class="input-group input-group-lg">
+                  <input type="text" ng-model="newTask" class="form-control"/>
+                  <span class="input-group-btn"><input type="submit" value="Add" class="btn btn-default"/></span>
+                </div>
+              </form>
+            </div>
+            <div id="todoList" class="list-group">
+              <div ng-repeat="task in newTaskList" class="list-group-item">
+                <label class="description">
+                    <input type="checkbox" ng-model="task.done"/>
+                    <span ng-bind="task.description" ng-class="{strike : task.done}"></span>
+                </label>
+                <input type="button" class="btn btn-danger btn-xs" ng-click="removeTask($index)" value="delete"/>
+              </div>
+            </div>
         </div>
-      </div> 
+      </div>
+         
       <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
       <script type="text/javascript" src="app.js"></script>
       <script type="text/javascript" src="controller.js"></script>

@@ -24,3 +24,7 @@ body{
 .movie-container .movie-thumb .thumbnail{
 	margin-bottom:0;
 }
+.movie-description .img-thumbnail{
+	float:left;
+	margin-right: 10px;
+}

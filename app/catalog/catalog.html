@@ -1,0 +1,16 @@
+<div class="well col-sm-10 col-xs-12">
+	<div class="row">
+	  <div class="col-sm-12">
+	    <h2 class="movie-heading">Movies - <i>Watched currently</i></h2>
+	  </div>
+	</div>
+	<div class="row">
+	  <div class="movie-container col-sm-2 col-sm-6" ng-repeat="movies in movieList | paginate: currentPage: itemsPerPage">
+	  <a href="#" class="movie-thumb">
+	    <img ng-src="{{movies.backdrop_path}}" alt="movies.title" class="thumbnail img-responsive"/>
+	    <h5 ng-bind="movies.title"></h5>
+	  </a>
+	  </div>
+	</div>
+	<pagination class="pagination" total-items="totalItems" items-per-page="itemsPerPage" ng-model="currentPage" ></pagination>
+</div>

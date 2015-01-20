@@ -76,6 +76,66 @@
         "production_companies": ""
     },
     {
+        "title": "Tak3n",
+        "id": "4",
+        "original title": "Tak3n",
+        "overview": " Ex-government operative Bryan Mills finds his life is shattered when he's falsely accused of a murder that hits close to home. As he's pursued by a savvy police inspector, Mills employs his particular set of skills to track the real killer and exact his unique brand of justice",
+        "adult": "false",
+        "backdrop_path": "/assets/img/taken3.jpg",
+        "belongs_to_collection": "null",
+        "budget": 10,
+        "genres": [
+            {
+                "id": 41,
+                "name": "Action"
+            },
+            {
+                "id": 42,
+                "name": "Crime"
+            },
+            {
+                "id": 43,
+                "name": "Adventure"
+            },
+            {
+                "id": 44,
+                "name": "Thriller"
+            }
+        ],
+        "homepage": "",
+        "imdb_id": "tt1109624",
+        "popularity": "",
+        "production_companies": ""
+    },
+    {
+        "title": "American Sniper",
+        "id": "1",
+        "original title": "American Sniper",
+        "overview": "A Navy SEAL recounts his military career, which includes more than 150 confirmed kills.",
+        "adult": "false",
+        "backdrop_path": "/assets/img/americansniper.jpg",
+        "belongs_to_collection": "null",
+        "budget": 10,
+        "genres": [
+            {
+                "id": 11,
+                "name": "Drama"
+            },
+            {
+                "id": 12,
+                "name": "Action"
+            },
+            {
+                "id": 13,
+                "name": "Biography"
+            }
+        ],
+        "homepage": "",
+        "imdb_id": "tt2179136",
+        "popularity": "",
+        "production_companies": ""
+    },
+    {
         "title": "The Wedding Ringer",
         "id": "2",
         "original title": "The Wedding Ringer",
@@ -92,6 +152,358 @@
         ],
         "homepage": "",
         "imdb_id": "tt0884732",
+        "popularity": "",
+        "production_companies": ""
+    },
+    {
+        "title": "Paddington",
+        "id": "3",
+        "original title": "Paddington",
+        "overview": "Paddington follows the comic misadventures of a young Peruvian bear with a passion for all things British, who travels to London in search of a home. Finding himself lost and alone at Paddington Station, he begins to realise that city life is not all he had imagined - until he meets the kindly Brown family, who read the label around his neck ('Please look after this bear. Thank you.') and offer him a temporary haven. It looks as though his luck has changed until this rarest of bears catches the eye of a museum taxidermist...",
+        "adult": "false",
+        "backdrop_path": "/assets/img/paddington.jpg",
+        "belongs_to_collection": "null",
+        "budget": 10,
+        "genres": [
+            {
+                "id": 31,
+                "name": "Adventure"
+            },
+            {
+                "id": 32,
+                "name": "Comedy"
+            },
+            {
+                "id": 33,
+                "name": "Family"
+            }
+        ],
+        "homepage": "",
+        "imdb_id": "tt1109624",
+        "popularity": "",
+        "production_companies": ""
+    },
+    {
+        "title": "Tak3n",
+        "id": "4",
+        "original title": "Tak3n",
+        "overview": " Ex-government operative Bryan Mills finds his life is shattered when he's falsely accused of a murder that hits close to home. As he's pursued by a savvy police inspector, Mills employs his particular set of skills to track the real killer and exact his unique brand of justice",
+        "adult": "false",
+        "backdrop_path": "/assets/img/taken3.jpg",
+        "belongs_to_collection": "null",
+        "budget": 10,
+        "genres": [
+            {
+                "id": 41,
+                "name": "Action"
+            },
+            {
+                "id": 42,
+                "name": "Crime"
+            },
+            {
+                "id": 43,
+                "name": "Adventure"
+            },
+            {
+                "id": 44,
+                "name": "Thriller"
+            }
+        ],
+        "homepage": "",
+        "imdb_id": "tt1109624",
+        "popularity": "",
+        "production_companies": ""
+    },
+    {
+        "title": "American Sniper",
+        "id": "1",
+        "original title": "American Sniper",
+        "overview": "A Navy SEAL recounts his military career, which includes more than 150 confirmed kills.",
+        "adult": "false",
+        "backdrop_path": "/assets/img/americansniper.jpg",
+        "belongs_to_collection": "null",
+        "budget": 10,
+        "genres": [
+            {
+                "id": 11,
+                "name": "Drama"
+            },
+            {
+                "id": 12,
+                "name": "Action"
+            },
+            {
+                "id": 13,
+                "name": "Biography"
+            }
+        ],
+        "homepage": "",
+        "imdb_id": "tt2179136",
+        "popularity": "",
+        "production_companies": ""
+    },
+    {
+        "title": "The Wedding Ringer",
+        "id": "2",
+        "original title": "The Wedding Ringer",
+        "overview": "A comedy about a loner and the friendship he forms with the guy he hires to pose as the best man at his upcoming wedding",
+        "adult": "false",
+        "backdrop_path": "/assets/img/weddingringer.jpg",
+        "belongs_to_collection": "null",
+        "budget": 10,
+        "genres": [
+            {
+                "id": 21,
+                "name": "Comedy"
+            }
+        ],
+        "homepage": "",
+        "imdb_id": "tt0884732",
+        "popularity": "",
+        "production_companies": ""
+    },
+    {
+        "title": "Paddington",
+        "id": "3",
+        "original title": "Paddington",
+        "overview": "Paddington follows the comic misadventures of a young Peruvian bear with a passion for all things British, who travels to London in search of a home. Finding himself lost and alone at Paddington Station, he begins to realise that city life is not all he had imagined - until he meets the kindly Brown family, who read the label around his neck ('Please look after this bear. Thank you.') and offer him a temporary haven. It looks as though his luck has changed until this rarest of bears catches the eye of a museum taxidermist...",
+        "adult": "false",
+        "backdrop_path": "/assets/img/paddington.jpg",
+        "belongs_to_collection": "null",
+        "budget": 10,
+        "genres": [
+            {
+                "id": 31,
+                "name": "Adventure"
+            },
+            {
+                "id": 32,
+                "name": "Comedy"
+            },
+            {
+                "id": 33,
+                "name": "Family"
+            }
+        ],
+        "homepage": "",
+        "imdb_id": "tt1109624",
+        "popularity": "",
+        "production_companies": ""
+    },
+    {
+        "title": "Tak3n",
+        "id": "4",
+        "original title": "Tak3n",
+        "overview": " Ex-government operative Bryan Mills finds his life is shattered when he's falsely accused of a murder that hits close to home. As he's pursued by a savvy police inspector, Mills employs his particular set of skills to track the real killer and exact his unique brand of justice",
+        "adult": "false",
+        "backdrop_path": "/assets/img/taken3.jpg",
+        "belongs_to_collection": "null",
+        "budget": 10,
+        "genres": [
+            {
+                "id": 41,
+                "name": "Action"
+            },
+            {
+                "id": 42,
+                "name": "Crime"
+            },
+            {
+                "id": 43,
+                "name": "Adventure"
+            },
+            {
+                "id": 44,
+                "name": "Thriller"
+            }
+        ],
+        "homepage": "",
+        "imdb_id": "tt1109624",
+        "popularity": "",
+        "production_companies": ""
+    },
+    {
+        "title": "American Sniper",
+        "id": "1",
+        "original title": "American Sniper",
+        "overview": "A Navy SEAL recounts his military career, which includes more than 150 confirmed kills.",
+        "adult": "false",
+        "backdrop_path": "/assets/img/americansniper.jpg",
+        "belongs_to_collection": "null",
+        "budget": 10,
+        "genres": [
+            {
+                "id": 11,
+                "name": "Drama"
+            },
+            {
+                "id": 12,
+                "name": "Action"
+            },
+            {
+                "id": 13,
+                "name": "Biography"
+            }
+        ],
+        "homepage": "",
+        "imdb_id": "tt2179136",
+        "popularity": "",
+        "production_companies": ""
+    },
+    {
+        "title": "The Wedding Ringer",
+        "id": "2",
+        "original title": "The Wedding Ringer",
+        "overview": "A comedy about a loner and the friendship he forms with the guy he hires to pose as the best man at his upcoming wedding",
+        "adult": "false",
+        "backdrop_path": "/assets/img/weddingringer.jpg",
+        "belongs_to_collection": "null",
+        "budget": 10,
+        "genres": [
+            {
+                "id": 21,
+                "name": "Comedy"
+            }
+        ],
+        "homepage": "",
+        "imdb_id": "tt0884732",
+        "popularity": "",
+        "production_companies": ""
+    },
+    {
+        "title": "Paddington",
+        "id": "3",
+        "original title": "Paddington",
+        "overview": "Paddington follows the comic misadventures of a young Peruvian bear with a passion for all things British, who travels to London in search of a home. Finding himself lost and alone at Paddington Station, he begins to realise that city life is not all he had imagined - until he meets the kindly Brown family, who read the label around his neck ('Please look after this bear. Thank you.') and offer him a temporary haven. It looks as though his luck has changed until this rarest of bears catches the eye of a museum taxidermist...",
+        "adult": "false",
+        "backdrop_path": "/assets/img/paddington.jpg",
+        "belongs_to_collection": "null",
+        "budget": 10,
+        "genres": [
+            {
+                "id": 31,
+                "name": "Adventure"
+            },
+            {
+                "id": 32,
+                "name": "Comedy"
+            },
+            {
+                "id": 33,
+                "name": "Family"
+            }
+        ],
+        "homepage": "",
+        "imdb_id": "tt1109624",
+        "popularity": "",
+        "production_companies": ""
+    },
+    {
+        "title": "Tak3n",
+        "id": "4",
+        "original title": "Tak3n",
+        "overview": " Ex-government operative Bryan Mills finds his life is shattered when he's falsely accused of a murder that hits close to home. As he's pursued by a savvy police inspector, Mills employs his particular set of skills to track the real killer and exact his unique brand of justice",
+        "adult": "false",
+        "backdrop_path": "/assets/img/taken3.jpg",
+        "belongs_to_collection": "null",
+        "budget": 10,
+        "genres": [
+            {
+                "id": 41,
+                "name": "Action"
+            },
+            {
+                "id": 42,
+                "name": "Crime"
+            },
+            {
+                "id": 43,
+                "name": "Adventure"
+            },
+            {
+                "id": 44,
+                "name": "Thriller"
+            }
+        ],
+        "homepage": "",
+        "imdb_id": "tt1109624",
+        "popularity": "",
+        "production_companies": ""
+    },
+    {
+        "title": "American Sniper",
+        "id": "1",
+        "original title": "American Sniper",
+        "overview": "A Navy SEAL recounts his military career, which includes more than 150 confirmed kills.",
+        "adult": "false",
+        "backdrop_path": "/assets/img/americansniper.jpg",
+        "belongs_to_collection": "null",
+        "budget": 10,
+        "genres": [
+            {
+                "id": 11,
+                "name": "Drama"
+            },
+            {
+                "id": 12,
+                "name": "Action"
+            },
+            {
+                "id": 13,
+                "name": "Biography"
+            }
+        ],
+        "homepage": "",
+        "imdb_id": "tt2179136",
+        "popularity": "",
+        "production_companies": ""
+    },
+    {
+        "title": "The Wedding Ringer",
+        "id": "2",
+        "original title": "The Wedding Ringer",
+        "overview": "A comedy about a loner and the friendship he forms with the guy he hires to pose as the best man at his upcoming wedding",
+        "adult": "false",
+        "backdrop_path": "/assets/img/weddingringer.jpg",
+        "belongs_to_collection": "null",
+        "budget": 10,
+        "genres": [
+            {
+                "id": 21,
+                "name": "Comedy"
+            }
+        ],
+        "homepage": "",
+        "imdb_id": "tt0884732",
+        "popularity": "",
+        "production_companies": ""
+    },
+    {
+        "title": "Paddington",
+        "id": "3",
+        "original title": "Paddington",
+        "overview": "Paddington follows the comic misadventures of a young Peruvian bear with a passion for all things British, who travels to London in search of a home. Finding himself lost and alone at Paddington Station, he begins to realise that city life is not all he had imagined - until he meets the kindly Brown family, who read the label around his neck ('Please look after this bear. Thank you.') and offer him a temporary haven. It looks as though his luck has changed until this rarest of bears catches the eye of a museum taxidermist...",
+        "adult": "false",
+        "backdrop_path": "/assets/img/paddington.jpg",
+        "belongs_to_collection": "null",
+        "budget": 10,
+        "genres": [
+            {
+                "id": 31,
+                "name": "Adventure"
+            },
+            {
+                "id": 32,
+                "name": "Comedy"
+            },
+            {
+                "id": 33,
+                "name": "Family"
+            }
+        ],
+        "homepage": "",
+        "imdb_id": "tt1109624",
         "popularity": "",
         "production_companies": ""
     },

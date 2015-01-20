@@ -1,41 +1,14 @@
 <!DOCTYPE html>
-  <html lan="en">
+  <html lan="en" ng-app="movieDB" ng-controller="catalogContrl">
     <head>
       <meta charset="utf-8">
       <title>To do app</title>
       <link href="app.css" rel="stylesheet"/>
       <link href="bootstrap.css" rel="stylesheet"/>
     </head>
-    <body ng-app="todoApp" ng-controller="todoAppController" class="container-fluid">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="jumbotron">
-              <h1>Do what you want to do</h1>
-              <form ng-submit="addNewTask()">
-                <div class="input-group input-group-lg">
-                  <input type="text" ng-model="newTask" class="form-control"/>
-                  <span class="input-group-btn"><input type="submit" value="Add" class="btn btn-default"/></span>
-                </div>
-              </form>
-            </div>
-            <div id="todoList" class="list-group">
-              <div ng-repeat="task in newTaskList" class="list-group-item">
-                <label class="description">
-                    <input type="checkbox" ng-model="task.done"/>
-                    <span ng-bind="task.description" ng-class="{strike : task.done}"></span>
-                </label>
-                <input type="button" class="btn btn-danger btn-xs" ng-click="removeTask($index)" value="delete"/>
-              </div>
-            </div>
-            <h4><span ng-bind="pendintItems"></span>
-              <ng-pluralize count="pendintItems" when="{one: 'item left', other:'items left'}"></ng-pluralize>
-              <button ng-click="clearList()" ng-show="pendintItems < newTaskList.length" class="clearTask btn btn-primary">clearlist <span ng-bind="newTaskList.length - pendintItems"></span></button>
-            </h4>
-        </div>
-      </div>
-         
-      <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+    <body>
+     <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
       <script type="text/javascript" src="app.js"></script>
-      <script type="text/javascript" src="controller.js"></script>
+      <script type="text/javascript" src="catalog/catalog.js"></script>
     </body>
   </html>

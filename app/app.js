@@ -3,6 +3,7 @@
 angular.module("movieDB", [
 	"ngRoute",
 	"movieDB.catalog", 
+	"movieDB.movie",
 	"movieDB.paginate-filter"
 	])
 	.config(['$routeProvider', function($routeProvider){
@@ -10,6 +11,10 @@ angular.module("movieDB", [
 			when('/', {
 				templateUrl: 'catalog/catalog.html', 
 				controller: 'catalogContrl'
+			}).
+			when('/movie/:movieID', {
+				templateUrl: 'movie/movie.html', 
+				controller: 'movieContrl'
 			}).
 			otherwise({redirectTo : '/'});
 	}]);

@@ -6,7 +6,7 @@
 	</div>
 	<div class="row">
 	  <div class="movie-container col-sm-2 col-sm-6" ng-repeat="movies in movieList | paginate: currentPage: itemsPerPage">
-	  <a href="#" class="movie-thumb">
+	  <a href="#/movie/{{movies.id}}" class="movie-thumb">
 	    <img ng-src="{{movies.backdrop_path}}" alt="movies.title" class="thumbnail img-responsive"/>
 	    <h5 ng-bind="movies.title"></h5>
 	  </a>

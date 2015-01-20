@@ -28,6 +28,7 @@
             </div>
             <h4><span ng-bind="pendintItems"></span>
               <ng-pluralize count="pendintItems" when="{one: 'item left', other:'items left'}"></ng-pluralize>
+              <button ng-click="clearList()" ng-show="pendintItems < newTaskList.length" class="clearTask btn btn-primary">clearlist <span ng-bind="newTaskList.length - pendintItems"></span></button>
             </h4>
         </div>
       </div>

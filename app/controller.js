@@ -3,7 +3,7 @@
 angular.module("todoApp.controller", []).controller("todoAppController", ["$scope", "$filter", function($scope, $filter){
 
 	$scope.newTask = "";
-	$scope.pendintItems = 3;
+	$scope.pendintItems;
 	$scope.newTaskList = [
 		{'description':'Need to attend session of mongodb', 'done':false},
 		{'description':'Need to complete angular session today', 'done':false},
@@ -18,6 +18,9 @@ angular.module("todoApp.controller", []).controller("todoAppController", ["$scop
 	}, true);
 	$scope.removeTask = function(node){
 		$scope.newTaskList.splice(node, 1);
+	}
+	$scope.clearList = function(){
+		$scope.newTaskList = $filter('filter')($scope.newTaskList, {'done':false});
 	}
 	
 }]);

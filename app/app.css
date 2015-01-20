@@ -39,5 +39,7 @@
 	filter:alpha(opacity=100);
 	transform:rotate(360deg);
 }
-
+.clearTask{
+	float: right;
+}
 
